@@ -1,3 +1,11 @@
+### Estrutura do projeto
+
+A Arquitetura Limpa (Clean Architecture) é um padrão de arquitetura de software que visa criar sistemas escaláveis, testáveis e flexíveis. A ideia central da arquitetura limpa é separar as preocupações de negócio da tecnologia.
+
+Na primeira fase de engenharia de software, é importante ter uma visão geral da arquitetura limpa. A arquitetura limpa é dividida em camadas, que são:
+
+
+```shell
 src/
 ├── adapters/
 │   ├── express/         # Camada de apresentação utilizando o framework Express
@@ -25,3 +33,4 @@ src/
 ├── app.js               # Configuração da aplicação Express ou do servidor gRPC
 ├── server.js            # Código para inicializar o servidor HTTP ou gRPC
 └── index.js             # Código principal para inicializar a aplicação
+```
