@@ -1,0 +1,1 @@
+/* Código principal para inicializar a aplicação */
